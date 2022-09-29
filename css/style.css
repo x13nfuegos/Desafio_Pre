@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #140330;
+  font-family: monospace;
+  font-size: 1.6rem;
+  padding: 30px 0;
+}
+
+header{
+  text-align:center; 
+  color: white;
+  font-size: 2.5rem;
+}
+
+
+.btn-container{
+  text-align: center;
+}
+
+.restart-btn{
+  color: white;
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+
+.restart-btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+
+.puntajes{
+  margin: 8% 0 4%;
+  text-align: center;
+  color: white;
+  border: 3px solid white;
+  width: 250px;
+  font-size: 6rem;
+  padding: 30px 10px;
+  position: relative
+}
+
+.icon{
+  background:#c112a0;
+  font-size: 3rem;
+  padding: 10px 10px;
+  border-radius: 12px;
+}
+
+#usuario-icon{
+  position: absolute;
+  left: -40px;
+}
+
+#usuario-icon{
+  position: absolute;
+  right: -55px;
+}
+
+
+.opciones{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 25px;
+}
+
+.opciones .opcion{
+  cursor: pointer;
+  border: 3px solid  #531345;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 40%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.1s ease;
+}
+
+.opciones .opcion:nth-child(2){
+  margin: 0 20px;
+}
+
+.opciones .opcion:hover{
+  cursor: pointer;
+  background: #531345;
+}
+
+.opciones .opcion img{
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+
+.text-ganaste{
+  color: #289a28;
+  font-size: 4rem;
+}
+
+.texto-perdiste{
+  color: #ff0000;
+  font-size: 4rem;
+}
+
+.modal-content p{
+  font-size: 1.8rem;
+}
+
+.restart-btn{
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+
+  .opciones .opcion:nth-child(2){
+    margin: 0 10px;
+  }
+  h2{
+    font-size: 2rem;
+  }
+
+  
+  .puntajes{
+    font-size: 5rem;
+    width: 180px;
+  }
+  .icon{
+    font-size: 2rem;
+  }
+
+
+  .texto-ganaste{
+    font-size: 3rem;
+  }
+  .texto-perdiste{
+    font-size: 3rem;
+  }
+  .modal-content p{
+    font-size: 1.5rem;
+  }
